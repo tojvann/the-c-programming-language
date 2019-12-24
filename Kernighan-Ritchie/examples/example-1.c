@@ -9,7 +9,7 @@ int main(){
     while(fahr <= 300)
     {
         cel = 5 * (fahr - 32) / 9;
-        printf("%d \t %d \n",fahr, cel);
+        printf("%3d \t %6d \n",fahr, cel);
         fahr += 20;
     }
     return 0;
