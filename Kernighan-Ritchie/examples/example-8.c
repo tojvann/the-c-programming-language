@@ -14,7 +14,7 @@ int main(){
             ++ndigit[c - '0'];
         else if (c == ' ' || c == '\n' || c =='\t')
             ++nwhite;
-        else 
+        else
             ++nother;
         }
     printf("digits = ") ;
